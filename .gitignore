@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pyc
+*.csv  # Exclude large data files (optional, but recommended for now)
+*.log
