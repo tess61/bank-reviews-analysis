@@ -32,3 +32,4 @@ This repository contains code for analyzing customer reviews of mobile banking a
 - **Scripts**:
   - `scripts/database/setup_database.sql`: SQL script to create tables.
   - `scripts/database/insert_data.py`: Python script to insert review data.
+  - **Note**: The SQL dump (`bank_reviews_dump.sql`) is generated using `pg_dump -U postgres -d bank_reviews`. Due to size, it may not be committed; run the command to recreate it.
