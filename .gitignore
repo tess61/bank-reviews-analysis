@@ -4,3 +4,4 @@ __pycache__/
 *.csv  # Exclude large data files (optional, but recommended for now)
 *.log
 *.sql
+/data
