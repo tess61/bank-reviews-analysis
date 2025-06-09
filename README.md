@@ -33,3 +33,14 @@ This repository contains code for analyzing customer reviews of mobile banking a
   - `scripts/database/setup_database.sql`: SQL script to create tables.
   - `scripts/database/insert_data.py`: Python script to insert review data.
   - **Note**: The SQL dump (`bank_reviews_dump.sql`) is generated using `pg_dump -U postgres -d bank_reviews`. Due to size, it may not be committed; run the command to recreate it.
+## Task 4: Insights and Recommendations
+- **Methodology**:
+  - Queried sentiment and thematic data from PostgreSQL `bank_reviews` database.
+  - Identified 2+ drivers and pain points per bank using sentiment and theme analysis.
+  - Created 3–5 visualizations (e.g., sentiment trends, rating distributions, keyword clouds).
+  - Delivered a 4-page report with actionable recommendations.
+- **Scripts**:
+  - `scripts/analysis/generate_insights.py`: Analyzes data and generates visualizations.
+  - `outputs/report/final_report.pdf`: Final report with insights and recommendations.
+- **Outputs**:
+  - `outputs/plots/`: Contains visualization PNG files.
